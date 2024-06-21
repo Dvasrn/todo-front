@@ -1,0 +1,12 @@
+query getAllTodo {
+  getAllTodo {
+    todoName
+    todoTeam
+  }
+}
+mutation addTodoMutation($input: addTodoInput) {
+  addTodoMutation(input: $input) {
+    todoName
+    todoTeam
+  }
+}
